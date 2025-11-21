@@ -1,0 +1,22 @@
+{
+    "slicers": [
+        {
+            "name": "Bambu Studio",
+            "path": "C:\\Program Files\\Bambu Studio\\bambu-studio.exe"
+        },
+        {
+            "name": "PrusaSlicer",
+            "path": "C:\\Program Files\\Prusa3D\\PrusaSlicer\\prusa-slicer.exe"
+        },
+        {
+            "name": "Orca Slicer",
+            "path": "C:\\Program Files\\OrcaSlicer\\orca-slicer.exe"
+        }
+    ],
+    "file_extensions": [
+        ".3mf",
+        ".stl",
+        ".stp",
+		".step"
+    ]
+}
