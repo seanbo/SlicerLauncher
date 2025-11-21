@@ -1,0 +1,4 @@
+build/
+dist/
+helpers/
+SlicerLauncher.spec
