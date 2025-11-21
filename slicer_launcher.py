@@ -73,7 +73,7 @@ class SlicerLauncher:
         file_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="File", menu=file_menu)
         file_menu.add_command(label="Associate File Types", command=self.associate_files)
-        file_menu.add_command(label="Unassociate File Types", command=self.unassociate_files)
+        file_menu.add_command(label="Restore Previous Associations", command=self.unassociate_files)
         file_menu.add_separator()
         file_menu.add_command(label="Launch", command=self.launch_slicer)
         file_menu.add_command(label="Close", command=self.root.quit)
